@@ -5,7 +5,7 @@ In [exercise 21](/week-3/21-dietary), you used `<fieldset>` and `<legend>` to gr
 To send the t-shirt to your customer you need to know where they want it to be delivered. This may be different from the address on the card they use to make payment. In this exercise, you will create two groups of fields: one for the billing address and one for the delivery address.
 
 1. Find the line in the `index.html` page where it says `<!-- Add the form fields here -->`.
-2. Below this line, add a `<fieldset>` with a `<legend>` that says "Billing Address".
+2. Below this line, add a `<fieldset>` with a `<legend>` that says ".
 3. Add text input fields nested inside of the `<fieldset>`. Add fields for the following: Address Line 1, Address Line 2, Postcode and City.
 4. Repeat steps 2 and 3 for a set of fields named "Delivery Address".
 
