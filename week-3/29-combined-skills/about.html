@@ -11,7 +11,7 @@
 
   <body>
     <div class="site-wrapper">
-      <div class="site-header">
+      <header class="site-header">
         <h1 class="site-header__title">C.Y.F</h1>
         <div class="main-nav">
           <ul class="main-nav__list">
@@ -26,6 +26,8 @@
             </li>
           </ul>
         </div>
+      </header>
+      <main>
         <form class="site-search" action="/search">
           <label for="search-input">
             Search
@@ -49,7 +51,7 @@
         </form>
       </div>
 
-      <main class="site-content">
+      <div class="site-content">
         <article class="main-article">
           <h1>About C.Y.F</h1>
           <p>
@@ -123,7 +125,7 @@
             href="https://github.com/coditech/Submissions/tree/master/Exercises/html-css-git-exercises"
             >Built</a
           >
-          with ♥ for <a href="https://codi.tech/">Codi</a>.
+          with <span class="codi-heart"> ♥ </span> for <a href="https://codi.tech/">Codi</a>.
         </p>
         <p>
           <svg

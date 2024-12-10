@@ -1,1 +1,54 @@
 /* Add your own CSS code below */
+@media screen and (min-width: 992px) {
+    .hero__title {
+        font-size: 50px;
+        width: 70%;
+    }
+}
+
+.main-nav__list{
+    display: flex;
+    justify-content: space-around;
+}
+.radio-options{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:767px){
+    
+
+.site-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.views{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view-list-partA{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+}
+.codi-heart {
+    color: red; 
+   
+}
+
+.main-article{
+    max-width: 50em;
+   
+  
+}
+.site-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-article p{
+    line-height: 2;
+}
